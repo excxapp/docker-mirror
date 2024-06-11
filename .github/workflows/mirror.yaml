@@ -10,7 +10,7 @@ on:
       NEW_NAME:
         description: '同步后镜像名称'
         required: true
-        default: 'portainer-ce'
+        default: 'portainer_ce'
       IMAGE_VERSION:
         description: '镜像版本'
         required: true
