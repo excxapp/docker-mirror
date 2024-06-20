@@ -6,11 +6,11 @@ on:
       IMAGE_NAME:
         description: '原镜像名称'
         required: true
-        default: 'ghcr.io/jinnrry/pmail'
+        default: 'golang'
       NEW_NAME:
         description: '同步后镜像名称'
         required: true
-        default: 'pmail'
+        default: 'golang'
       IMAGE_VERSION:
         description: '镜像版本'
         required: true
