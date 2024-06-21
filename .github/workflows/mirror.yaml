@@ -6,11 +6,11 @@ on:
       IMAGE_NAME:
         description: '原镜像名称'
         required: true
-        default: 'alpine'
+        default: 'schollz/croc'
       NEW_NAME:
         description: '同步后镜像名称'
         required: true
-        default: 'alpine'
+        default: 'croc'
       IMAGE_VERSION:
         description: '镜像版本'
         required: true
