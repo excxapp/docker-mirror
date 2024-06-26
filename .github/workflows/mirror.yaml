@@ -6,15 +6,15 @@ on:
       IMAGE_NAME:
         description: '原镜像名称'
         required: true
-        default: 'snowdreamtech/frpc'
+        default: 'h2non/imaginary'
       NEW_NAME:
         description: '同步后镜像名称'
         required: true
-        default: 'frpc'
+        default: 'opfilmimage'
       IMAGE_VERSION:
         description: '镜像版本'
         required: true
-        default: '0.58.1'
+        default: '1.0.1'
       TARGET_REGISTRY:
         description: '仓库地址'
         required: true
