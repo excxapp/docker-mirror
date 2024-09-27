@@ -10,7 +10,7 @@ on:
       NEW_NAME:
         description: '同步后镜像名称'
         required: true
-        default: 'it-tools'
+        default: 'idphotos'
       IMAGE_VERSION:
         description: '镜像版本'
         required: true
@@ -22,7 +22,7 @@ on:
       TARGET_REPOSITORY:
         description: '空间名称'
         required: true
-        default: 'idphotos'
+        default: 'xopenfilm'
 
 jobs:
   build:
