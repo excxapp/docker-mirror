@@ -6,7 +6,7 @@ on:
       IMAGE_NAME:
         description: '原镜像名称'
         required: true
-        default: 'linzeyi/hivision_idphotos:latest'
+        default: 'linzeyi/hivision_idphotos'
       NEW_NAME:
         description: '同步后镜像名称'
         required: true
