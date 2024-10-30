@@ -6,15 +6,15 @@ on:
       IMAGE_NAME:
         description: '原镜像名称'
         required: true
-        default: 'redis'
+        default: 'postgres'
       NEW_NAME:
         description: '同步后镜像名称'
         required: true
-        default: 'redis'
+        default: 'postgres'
       IMAGE_VERSION:
         description: '镜像版本'
         required: true
-        default: '7.2-alpine'
+        default: '16-alpine'
       TARGET_REGISTRY:
         description: '仓库地址'
         required: true
