@@ -6,15 +6,15 @@ on:
       IMAGE_NAME:
         description: '原镜像名称'
         required: true
-        default: 'artalk/artalk-go'
+        default: 'centrifugo/centrifugo'
       NEW_NAME:
         description: '同步后镜像名称'
         required: true
-        default: 'artalk'
+        default: 'centrifugo'
       IMAGE_VERSION:
         description: '镜像版本'
         required: true
-        default: 'latest'
+        default: '5.4'
       TARGET_REGISTRY:
         description: '仓库地址'
         required: true
