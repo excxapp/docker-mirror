@@ -6,11 +6,11 @@ on:
       IMAGE_NAME:
         description: '原镜像名称'
         required: true
-        default: 'centrifugo/centrifugo'
+        default: 'nocodb/nocodb'
       NEW_NAME:
         description: '同步后镜像名称'
         required: true
-        default: 'centrifugo'
+        default: 'nocodb'
       IMAGE_VERSION:
         description: '镜像版本'
         required: true
